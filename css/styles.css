@@ -1,0 +1,28 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+#btn {
+  background-color: #ef454a;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 200px;
+  margin: 30px auto;
+  color: #fff;
+  font-size: 42px;
+  box-shadow: 0 10px 0 #d1483e;
+  user-select: none;
+  font-weight: bold;
+}
+
+#btn:active {
+  margin: 35px auto;
+  box-shadow: 0 5px 0 #d1483e;
+}
+
+#btn:hover {
+  opacity: 0.9;
+}
